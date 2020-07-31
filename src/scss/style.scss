@@ -1,0 +1,24 @@
+@import './color';
+@import './@media';
+@import './font';
+@import './grid';
+@import './header';
+@import './menu_bar';
+@import './container';
+@import './slider';
+@import './logo';
+@import './footer';
+
+*{
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    font-family: $font-lora;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
