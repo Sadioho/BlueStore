@@ -23,7 +23,7 @@
             <img src="./img/logo1.png" alt="#" width="125px" />
           </div>
           <nav>
-            <ul>
+            <ul id="MenuItems">
               <li><a href="">Home</a></li>
               <li><a href="">Products</a></li>
               <li><a href="">About</a></li>
@@ -32,6 +32,7 @@
             </ul>
           </nav>
           <img src="./img/cart.png" alt="#" width="30px" height="30px" />
+          <img src="./img/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
         <div class="row">
           <div class="col-2">
@@ -47,7 +48,7 @@
             <a href="" class="btn">Explore Now &#8594;</a>
           </div>
           <div class="col-2">
-            <img src="./img/image1.png" alt="" />
+            <img src="./img/ADIDAS.png" alt="" />
           </div>
         </div>
       </div>
@@ -364,5 +365,17 @@
         <div class="copyright">Copyright 2020 - Blue_Store</div>
       </div>
     </div>
+    <!-- js for toggle menu -->
+    <script>
+      var MenuItems=document.getElementById("MenuItems");
+      MenuItems.style.maxHeight="0px";
+      menutoggle =()=>{
+        if(MenuItems.style.maxHeight=="0px")
+        {MenuItems.style.maxHeight="200px"}
+        else
+        {MenuItems.style.maxHeight="0px"}
+      }
+
+    </script>
   </body>
 </html>
