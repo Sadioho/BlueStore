@@ -1,0 +1,17 @@
+
+@mixin rating {
+  
+    .rating{
+        .fa{
+          color: $color_blue;
+        }
+        .far{
+          color: $color_blue;
+
+        }
+        .fas{
+          color: $color_blue;
+
+        }
+      }
+}
