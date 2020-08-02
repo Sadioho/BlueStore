@@ -18,6 +18,10 @@ module.exports = {
       template: "./src/index.html",
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/index2.html",
+      filename: "index2.html",
+    }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css",
