@@ -313,6 +313,50 @@ nav {
   }
 }
 
+//Singer Products Details
+.single-product{
+  margin-top: 80px;
+ .row{
+  .col-2{
+    padding: 20px;
+    img{
+      padding: 0;
+    }
+    h4{
+      margin: 20px 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    select{
+      display: block;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    input{
+      width: 50px;
+      height: 40px;
+      padding-left: 10px;
+      font-size: 1.3rem;
+      margin-right: 10px;
+      border: 1px solid $color_blue;
+    }
+    input:focus{
+      outline: none;
+    }
+    .fa{
+      color: $color_blue;
+    }
+    .small-img-row{
+      display: flex;
+      justify-content: space-between;
+      .small-img-col{
+        flex-basis: 24%;
+        cursor: pointer;
+      }
+    }
+  }
+ }
+}
 
 // @media
 @media only screen and (max-width: 800px) {
@@ -360,6 +404,18 @@ nav {
         text-align: center;
         .col-4{
           flex-basis: 100%;
+        }
+      }
+    }
+    .single-product{
+      .row{
+        text-align: left;
+        .col-2{
+          padding: 20px;
+          h1{
+            font-size: 1.5rem;
+            line-height: 30px;
+          }
         }
       }
     }

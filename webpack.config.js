@@ -22,6 +22,10 @@ module.exports = {
       template: "./src/index2.html",
       filename: "index2.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/product-details.html",
+      filename: "product-details.html",
+    }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css",
